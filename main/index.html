@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miguel Angelo O. Garcia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <div class="navbar">
+      <a class="fa fa-bars" aria-hidden="true" style="font-size: xx-large;">=</a>
+      <div href="#" ><img src="img/logo.png" alt="logo" 
+        style=" 
+          padding-top: 5px;  
+          padding-left: 8px; 
+          padding-right: 550px; 
+          height: 35px;" 
+          /></div>
+      <ul style="font-size: large; align-items: end;">
+        <li><a href="#">/Home</a></li> 
+        <li><a href="about.html">/About</a></li>
+        <li><a href="#">/Resume</a></li>
+        <li><a href="#">/Contact</a></li>
+      </ul>
+      
+    </div>
+    <!-- sidebar -->
+     
+    <div class="sidebar">
+      <div class="sidebar-header">
+          <a class="fa fa-times" aria-hidden="true" style="font-size: x-large;">x</a>
+      </div>
+      <ul class="menu" style="padding-left: 14px; font-size: x-large;"><br>
+          <li><a href="#">/Home</a></li><br>
+          <li><a href="about.html">/About</a></li><br>
+          <li><a href="#">/Resume</a></li><br>
+          <li><a href="#">/Contact</a></li>
+      </ul>
+  </div>
+  
+    
+    <div class="top-container" id="bg-image" style="size: 500px; background-image: url(bg.png);">
+      <h1>
+        <div class="greeting" id="greeting"></div>
+        <script>
+        function getGreeting() {
+            const now = new Date();
+            const hours = now.getHours();
+            let greeting;
+
+            if (hours >= 5 && hours < 12) {
+                greeting = "Good Morning!";
+            } else if (hours >= 12 && hours < 18) {
+                greeting = "Good Afternoon!";
+            } else {
+                greeting = "Good Evening!";
+            }
+
+            return greeting;
+        }
+        document.getElementById("greeting").textContent = getGreeting();
+        </script>
+      </h1>
+    </div>
+
+    <div class="bottom-container" >
+      
+      <div style="padding-top: 6%;">
+        <p style="font-size: 200%;">I'm <b>Miguel</b>, I made this website to brag LOL.</p><br><br>
+        <p style="font-size: 200%;">Wassup? <br><br> This year I'll be receiving my Bachelor of Science in Information Technology degree🎓.</p>
+      </div>
+      
+      <h2 class="text">
+        <a href="about.html">About</a>
+      </h2>
+      <h2 class="text">
+        Resume
+      </h2>
+      <h2 class="text">
+        Contacts
+      </h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  <footer>  
+    <div style="background-color: black;">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+  </footer>
+</html>
