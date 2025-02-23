@@ -28,6 +28,9 @@ body {
   margin: 50px 5%;
   font-family: Arial, Helvetica, sans-serif;
 }
+.centertext{
+  text-align: center;
+}
 
 .navbar {
   display: flex;
@@ -102,7 +105,10 @@ pre{
   padding-left: 30px;
   line-height: 1.6;
 }
-
+div.about{
+  padding-left: 9%; 
+  padding-right: 9%;
+}
 h1 {
   font-size: 400%;
 }
