@@ -77,8 +77,8 @@ body {
 .container {
   padding: 100px;
 }
-a.resp{
-  font-size: 50%;
+a.contact{
+  font-size: 55%;
 }
 a.respfooter{
   font-size: 110%;
@@ -90,6 +90,11 @@ p{
   text-align: left;
   padding-left: 30px;
   line-height: 1.6;
+}
+p.contact{
+  padding-top: 50px;
+  font-size: 200%;
+  text-align: center;
 }
 p.footer{
   padding-right: 5%;
