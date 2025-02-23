@@ -74,7 +74,13 @@ body {
 .container {
   padding: 100px;
 }
-
+a.resp{
+  font-size: 40%;
+}
+a.respfooter{
+  font-size: 110%;
+  color: azure;
+}
 p{
   font-size: larger;
   color: rgb(83, 83, 83);
@@ -82,8 +88,11 @@ p{
   padding-left: 30px;
   line-height: 1.6;
 }
-a.resp{
-  font-size: 40%;
+p.footer{
+  padding-right: 5%;
+  text-align: right;
+  font-size: 80%;
+  color: azure;
 }
 pre{
   font-family: Arial, Helvetica, sans-serif;
@@ -95,7 +104,7 @@ pre{
 }
 
 h1 {
-  font-size: 69px;
+  font-size: 400%;
 }
 h2 {
 
